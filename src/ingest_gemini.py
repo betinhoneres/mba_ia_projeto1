@@ -29,7 +29,7 @@ def run_ingestion_gemini():
     print(f"Documento dividido em {len(chunks)} fragmentos.")
     
     # 3. Configuração dos Embeddings do Google 
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
+    embeddings = GoogleGenerativeAIEmbeddings(model=os.getenv("GEMINI_EMBEDDING_MODEL", "models/embedding-001"))
     
     # 4. Persistência no pgVector 
     try:
