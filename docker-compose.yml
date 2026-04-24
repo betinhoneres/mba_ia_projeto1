@@ -1,0 +1,16 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: postgres_pgvector
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: adminpg
+      POSTGRES_PASSWORD: Postgres123
+      POSTGRES_DB: dbvector
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  postgres_data:

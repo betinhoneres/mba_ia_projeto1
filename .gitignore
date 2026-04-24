@@ -1,0 +1,19 @@
+# --- SEGURANÇA ---
+# Ignora o arquivo de variáveis de ambiente contendo as chaves de API
+.env
+.env.local
+.env.auth
+
+# --- PYTHON ---
+# Ignora arquivos compilados e cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# --- AMBIENTE VIRTUAL ---
+# Ignora a pasta do ambiente virtual (venv) conforme Especificação 3.1 do PRP
+venv/
+env/
+.venv/
