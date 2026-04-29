@@ -7,7 +7,7 @@ Este projeto implementa uma ferramenta de Busca Semântica (RAG) capaz de proces
 * **Python:** Versão 3.10 ou superior (com ambiente virtual `venv`).
 * **Docker e Docker Compose:** Para rodar o banco de dados PostgreSQL com a extensão pgVector.
 
-### OBSERVAÇÕES IMPORTANTES ---
+### OBSERVAÇÕES IMPORTANTES
 Foi criado dois arquivos para ingestão dos dados. Um para o gemini e outro para a openai. 
 Para rodar os comandos seguintes (chat e search)deve ser adicionado o argumento para qual dos modelos está sendo solicitado.
 Foi necessário alterar o modelo do google gemini para gemini-embedding-001 porque o modelo models/embedding-001 foi descontinuado e não está acessivel.
