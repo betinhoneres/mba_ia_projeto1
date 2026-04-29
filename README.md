@@ -9,8 +9,9 @@ Este projeto implementa uma ferramenta de Busca Semântica (RAG) capaz de proces
 
 ### OBSERVAÇÕES IMPORTANTES
 Foi criado dois arquivos para ingestão dos dados. Um para o gemini e outro para a openai. 
-Para rodar os comandos seguintes (chat e search)deve ser adicionado o argumento para qual dos modelos está sendo solicitado.
-Foi necessário alterar o modelo do google gemini para gemini-embedding-001 porque o modelo models/embedding-001 foi descontinuado e não está acessivel.
+Para rodar os comandos seguintes (chat e search) deve ser adicionado o argumento para qual dos modelos está sendo solicitado.
+
+Foi necessário alterar o modelo do google gemini para **gemini-embedding-001** porque o modelo **models/embedding-001** foi descontinuado e não está acessivel.
 
 ---
 
@@ -81,5 +82,5 @@ python src/chat.py --provider gemini
 ```
 #### Restrição Crítica 
 Se a informação não estiver no PDF, a resposta deve ser obrigatoriamente: 
-"Não tenho informações necessárias para responder sua pergunta.". 
+**"Não tenho informações necessárias para responder sua pergunta."**. 
 É proibido o uso de conhecimento externo ou opiniões.
