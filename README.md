@@ -67,15 +67,7 @@ Para processar via Gemini:
 ```
 python src/ingest_gemini.py
 ```
-#### Passo 2: Listagem de Fragmentos (Metadata Logging)   
-Para garantir a transparência do pipeline de ingestão, você pode consultar as coleções e retornar os IDs e os primeiros 100 caracteres de cada chunk.  
-```
-python src/list_chunks.py --provider openai
-```
-```
-python src/list_chunks.py --provider gemini
-```
-#### Passo 3: Teste do Core de Busca (Fase 03)   
+#### Passo 2: Teste do Core de Busca (Fase 03)   
 Retorna os fragmentos de texto relevantes para a sua pergunta, direto do banco de dados.  
 ```
 python src/search.py --provider openai --query "Sua pergunta aqui"
@@ -83,7 +75,7 @@ python src/search.py --provider openai --query "Sua pergunta aqui"
 ```
 python src/search.py --provider gemini --query "Sua pergunta aqui"
 ```
-#### Passo 4: Loop de Chat Interativo (Fase 04)   
+#### Passo 3: Loop de Chat Interativo (Fase 04)   
 Abre a interface CLI funcional de chat interativo. O sistema usará o contexto recuperado para formular respostas baseadas no PDF.  
 ```
 python src/chat.py --provider openai
