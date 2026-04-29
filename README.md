@@ -33,9 +33,9 @@ GEMINI_EMBEDDING_MODEL=gemini-embedding-001
 GEMINI_CHAT_MODEL=gemini-2.5-flash-lite
 ```
 
-# --- OBSERVAÇÕES IMPORTANTES ---
-## Foi criado dois arquivos para ingestão dos dados. Um para o gemini e outro para a openai. Para rodar os comandos segunites (chat e search)deve ser adicionado o argumento para qual dos modelos está sendo solicitado.
-## Foi necessário alterar o modelo do google gemini para gemini-embedding-001 porque o modelo models/embedding-001 foi descontinuado e não está acessivel.
+## --- OBSERVAÇÕES IMPORTANTES ---
+### Foi criado dois arquivos para ingestão dos dados. Um para o gemini e outro para a openai. Para rodar os comandos segunites (chat e search)deve ser adicionado o argumento para qual dos modelos está sendo solicitado.
+### Foi necessário alterar o modelo do google gemini para gemini-embedding-001 porque o modelo models/embedding-001 foi descontinuado e não está acessivel.
 
 ### 2. Inicialização do Banco de Dados
 Antes de rodar qualquer script, suba o container do banco de dados na porta 5432:  
