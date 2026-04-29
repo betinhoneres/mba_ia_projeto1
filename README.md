@@ -36,6 +36,7 @@ GOOGLE_API_KEY=sua_chave_do_google_aqui
 OPENAI_EMBEDDING_MODEL=text-embedding-3-small
 OPENAI_CHAT_MODEL=gpt-5-nano
 GEMINI_EMBEDDING_MODEL=gemini-embedding-001
+#O modelo models/embedding-001 foi descontinuado e não está acessivel
 GEMINI_CHAT_MODEL=gemini-2.5-flash-lite
 ```
 
