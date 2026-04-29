@@ -1,0 +1,19 @@
+# Gerenciamento de Variáveis de Ambiente
+python-dotenv
+
+# Ecossistema LangChain Base
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Integrações de Modelos (LLMs e Embeddings)
+langchain-openai
+langchain-google-genai
+
+# Integração com Banco de Dados e Vetores
+langchain-postgres
+sqlalchemy
+psycopg[binary]
+
+# Manipulação de PDF
+pypdf

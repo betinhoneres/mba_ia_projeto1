@@ -40,6 +40,16 @@ GEMINI_EMBEDDING_MODEL=gemini-embedding-001
 GEMINI_CHAT_MODEL=gemini-2.5-flash-lite
 ```
 
+### Instalação de Dependências
+
+Para garantir que o projeto funcione corretamente, é necessário instalar as bibliotecas listadas no arquivo `requirements.txt`. 
+
+Com o seu ambiente virtual (`venv`) ativado, abra o terminal na raiz do projeto e execute o seguinte comando:
+
+```
+pip install -r requirements.txt
+```
+
 ### 2. Inicialização do Banco de Dados
 Antes de rodar qualquer script, suba o container do banco de dados na porta 5432:  
 ```
